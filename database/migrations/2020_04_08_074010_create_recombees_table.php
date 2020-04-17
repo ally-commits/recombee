@@ -18,6 +18,9 @@ class CreateRecombeesTable extends Migration
             $table->string("user_id");
             $table->string("content_id");
             $table->timestamps();
+
+            
+
         });
     }
 
